@@ -5,9 +5,9 @@ module Api
 				@riders = Rider.all 
 			end
 
-		def show
-			@rider = Rider.find(params[:id])
-		end
+			def show
+				@rider = Rider.find(params[:id])
+			end
 end
 end
 end
